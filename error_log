@@ -1,0 +1,167 @@
+[08-Jan-2022 04:14:34 America/Boise] PHP Warning:  Unsupported declare 'strict_types' in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 1
+[08-Jan-2022 04:14:34 America/Boise] PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 89
+[08-Jan-2022 04:18:05 America/Boise] PHP Warning:  Unsupported declare 'strict_types' in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 1
+[08-Jan-2022 04:18:05 America/Boise] PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 89
+[08-Jan-2022 04:18:27 America/Boise] PHP Warning:  Unsupported declare 'strict_types' in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 1
+[08-Jan-2022 04:18:27 America/Boise] PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 89
+[08-Jan-2022 04:19:46 America/Boise] PHP Warning:  Unsupported declare 'strict_types' in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 1
+[08-Jan-2022 04:19:46 America/Boise] PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 89
+[08-Jan-2022 04:25:00 America/Boise] PHP Warning:  Unsupported declare 'strict_types' in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 1
+[08-Jan-2022 04:25:00 America/Boise] PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 89
+[08-Jan-2022 04:25:03 America/Boise] PHP Warning:  Unsupported declare 'strict_types' in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 1
+[08-Jan-2022 04:25:03 America/Boise] PHP Fatal error:  Default value for parameters with a class type hint can only be NULL in /home4/pickgood/public_html/morningagro/vendor/phpunit/phpunit/src/Framework/Assert/Functions.php on line 89
+[08-Jan-2022 11:27:53 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('view')
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('view')
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('view', Array)
+#5 /home4/pickgood/ in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[08-Jan-2022 11:27:53 UTC] PHP Fatal error:  Uncaught ReflectionException: Class view does not exist in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('view')
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('view')
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('view', Array)
+#5 /home4/pickgood/ in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[08-Jan-2022 11:33:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:23 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:40 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:33:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'root', '', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'root', '', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=127....', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illuminate\Database\Conn in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:35:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pickgood_mgalara.languages' doesn't exist in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php(359): PDO->prepare('select * from `...')
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php(367): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home4/pickgood/pu in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:35:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'pickgood_mgalara.languages' doesn't exist in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php:359
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php(359): PDO->prepare('select * from `...')
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php(696): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php(663): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php(367): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 /home4/pickgood/pu in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[08-Jan-2022 11:36:22 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home4/pickgood/public_html/morningagro/storage/framework/views/eb1f9cf446b2c4db6af2f53f7b35d87e93808681.php(40): route('home')
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/pickgood...')
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home4/pickg in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[08-Jan-2022 11:36:22 UTC] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\RouteNotFoundException: Route [home] not defined. in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:444
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(739): Illuminate\Routing\UrlGenerator->route('home', Array, true)
+#1 /home4/pickgood/public_html/morningagro/storage/framework/views/eb1f9cf446b2c4db6af2f53f7b35d87e93808681.php(40): route('home')
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(107): require('/home4/pickgood...')
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(108): Illuminate\Filesystem\Filesystem::Illuminate\Filesystem\{closure}()
+#4 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(58): Illuminate\Filesystem\Filesystem->getRequire('/home4/pickg in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php on line 444
+[09-Jan-2022 13:21:31 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 10502144 bytes) in /home4/pickgood/public_html/morningagro/vendor/intervention/image/src/Intervention/Image/Gd/Encoder.php on line 36
+[09-Jan-2022 13:21:31 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 65536 bytes) in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Support/Stringable.php on line 171
+[09-Jan-2022 13:43:11 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home4/pickgood/public_html/morningagro/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 154
+[09-Jan-2022 13:43:11 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 65536 bytes) in /home4/pickgood/public_html/morningagro/vendor/monolog/monolog/src/Monolog/Handler/HandlerInterface.php on line 22
+[09-Jan-2022 13:44:59 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 36864 bytes) in /home4/pickgood/public_html/morningagro/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 154
+[09-Jan-2022 13:44:59 Asia/Dhaka] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 40960 bytes) in /home4/pickgood/public_html/morningagro/vendor/composer/ClassLoader.php on line 444
+[02-Feb-2022 06:12:53 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'pickgood_mgalar...', 'S@iful01325800@', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'pickgood_mgalar...', 'S@iful01325800@', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illumina in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[02-Feb-2022 06:12:53 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'pickgood_mgalar...', 'S@iful01325800@', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'pickgood_mgalar...', 'S@iful01325800@', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illumina in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[02-Feb-2022 09:46:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'pickgood_mgalar...', 'S@iful01325800@', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'pickgood_mgalar...', 'S@iful01325800@', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illumina in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[02-Feb-2022 09:46:03 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[08004] [1040] Too many connections in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'pickgood_mgalar...', 'S@iful01325800@', Array)
+#1 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'pickgood_mgalar...', 'S@iful01325800@', Array)
+#2 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(184): Illumina in /home4/pickgood/public_html/morningagro/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 703
+[11-Mar-2022 01:08:23 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 01:43:25 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 02:16:07 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 02:16:28 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 02:17:53 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 02:19:39 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 02:54:23 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 02:55:21 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 04:44:47 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 04:59:57 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 05:00:14 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 05:02:16 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 05:18:48 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 05:19:41 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 05:20:50 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 05:39:21 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 05:39:23 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 05:39:24 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 06:31:57 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 06:32:03 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2
+[11-Mar-2022 06:32:11 America/Boise] PHP Fatal error:  Array and string offset access syntax with curly braces is no longer supported in /home4/pickgood/public_html/morningagro/index.php on line 2

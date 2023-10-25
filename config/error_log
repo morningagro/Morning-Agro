@@ -1,0 +1,8 @@
+[22-Jan-2022 00:39:18 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pickgood/public_html/morningagro/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/pickgood/public_html/morningagro/config/app.php on line 16
+[22-Jan-2022 00:39:21 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home4/pickgood/public_html/morningagro/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/pickgood/public_html/morningagro/config/app.php on line 16
